@@ -14,6 +14,8 @@ void main() {
 
   print(palabras);
 
+  //ok
+
 // Set  elimina paraules repetides de una llista
   Set<String> palabras2 = palabras.toSet();
 
