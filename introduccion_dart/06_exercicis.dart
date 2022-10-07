@@ -12,21 +12,34 @@
 */
 
 void main() {
-  List<String> persona = ["Sánchez"];
-  //print(persona[(5)]);
+  // 1
+  String nombre = "Sánchez";
+  print(nombre[nombre.length - 1]);
 
+  // 2
   List<String> frase = [
     "Hola JoSe, ¿Cómo estás, JosE?, si que estás bien Jose, ¿eh, josE?"
   ];
-  // for (var
+
+  String origen = "jose";
+  String destno = "maria";
+
+  origen = origen.toLowerCase();
+  destno = destno.toLowerCase();
 
   //3
-  int num1 = 3;
-  int num2 = 5;
-  int num3 = 104;
-  total = 
 
-  List<String> numeros = ["3", "5", "104"];
+  String numero1 = "3";
+  String numero2 = "5";
+  String numero3 = "104";
 
-  print(numeros.length);
+  int num1 = int.parse(numero1);
+  int num2 = int.parse(numero2);
+  int num3 = int.parse(numero3);
+
+  int suma = (num1 + num2 + num3);
+
+  String sumastring = suma.toString();
+
+  print(sumastring.length);
 }
